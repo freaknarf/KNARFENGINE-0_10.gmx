@@ -1,0 +1,10 @@
+ini_param[0]=vsp	
+ini_param[1]=hsp	
+ini_param[2]=walksp	
+ini_param[3]=life	
+ini_param[4]=blink_mode	
+ini_param[5]=blink	
+ini_param[6]=blinking	
+ini_param[7]=blink_period	
+ini_param[8]=lerpmove	
+ini_param[9]=acc	
