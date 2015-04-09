@@ -37,5 +37,24 @@ cam_read_param()
 break;
 
 
+case obj_scanlines :
+
+
+scanlines_read_param()
+
+
+break;
+
+case obj_particle_controller :
+
+
+particle_controller_read_param()
+
+
+
+break;
+
+
+
 
 }

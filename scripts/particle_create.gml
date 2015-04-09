@@ -1,5 +1,5 @@
 
-with oParticuleSelect
+with obj_particle_controller
     {
         pselect=argument0//type
         part_test2()//scr

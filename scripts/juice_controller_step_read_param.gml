@@ -10,3 +10,4 @@ blink_period=ini_param[6]
 //blink=ini_param[7]
 //petit piege !!! lecture seule de blink !!!
 blink_mode=ini_param[8]
+

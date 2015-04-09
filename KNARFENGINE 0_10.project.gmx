@@ -11,6 +11,7 @@
     <sprite>sprites\spr_param_controller</sprite>
     <sprite>sprites\spr_shockwave</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\sprite5</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -92,6 +93,12 @@
     <script>scripts\cam_read_param.gml</script>
     <script>scripts\cam_step_mode.gml</script>
     <script>scripts\cam_step.gml</script>
+    <script>scripts\script67.gml</script>
+    <script>scripts\scanlines_create_ev.gml</script>
+    <script>scripts\scanlines_read_param.gml</script>
+    <script>scripts\array_test.gml</script>
+    <script>scripts\particle_controller_create_ev.gml</script>
+    <script>scripts\particle_controller_read_param.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shader_shot.shader</shader>
@@ -115,7 +122,7 @@
       <object>objects\obj_Shockring</object>
       <object>objects\obj_Shadow_Surface</object>
       <object>objects\obj_shockwave</object>
-      <object>objects\oParticuleSelect</object>
+      <object>objects\obj_particle_controller</object>
       <object>objects\obj_player</object>
     </objects>
   </objects>

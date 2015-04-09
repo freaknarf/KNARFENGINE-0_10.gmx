@@ -1,0 +1,6 @@
+spacing=ini_param[0]
+alpha=ini_param[1]
+noise1=ini_param[2]
+noise2=ini_param[3]
+noisealpha=ini_param[4]
+scaling=ini_param[5]

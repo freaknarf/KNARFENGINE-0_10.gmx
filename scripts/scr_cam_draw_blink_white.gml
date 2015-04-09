@@ -6,7 +6,9 @@ if  (blink_p<blink_period/2)
 if( shader_is_compiled(shader_shot) )
     {    
         shader_set(shader_shot);
-        draw_self();
+        //draw_self();//08/04/2015
+        draw_sprite_ext(sprite_index,image_index,x,y,xscale,yscale,image_angle,c_white ,image_alpha)
+        ////08/04/2015
         shader_reset();
     }
     else

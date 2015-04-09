@@ -7,19 +7,19 @@ for (i=0;i<=9;i++)
 
 
 for (i=0;i<=9;i++)
-    {
+    {   
+    str_w=string_width(ini_param_name[i])/2
+    str_h=string_height(ini_param_name[i])-1//-1 pour fixer le bug :(
     
     xpoint=view_xview+32
-    ypoint=view_yview+16*i+16
+    ypoint=view_yview+str_h*i+16
     
     
     
-    
-    str_w=string_width(ini_param_name[i])
-    str_h=string_height(ini_param_name[i])
+ 
     
     
-    if (mouse_x>xpoint and mouse_y >ypoint and mouse_x<(xpoint+str_w) and mouse_y<(ypoint+str_h))
+    if (mouse_x>xpoint and mouse_y >=ypoint and mouse_x<(xpoint+str_w) and mouse_y<(ypoint+str_h))
     
     
         {

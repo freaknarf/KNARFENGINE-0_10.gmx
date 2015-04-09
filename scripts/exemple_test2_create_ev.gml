@@ -1,18 +1,18 @@
 ////////////PARAM CONTROLLER CREATE EVENT :
-
+array_test()
 //POLICE :
 draw_set_font(f_hud)
 
 //ARRAY :
 ///variables : 
-
+state=0
 inst=object_index
 //inst=obj
-array_max=10                 //max ligns
+/*array_max=10                 //max ligns
 ini_param_name[0] ="exemple value name :)";//text lines
 ini_param[0]=666              //values
 delta[0]=0
-state=0
+
 //ARRAY FULFILLMENT :
 
 
@@ -25,7 +25,7 @@ var i;
     i -= 1;
     }
     
-    
+    */
 //exemple_test    values :
 
 vsp=1

@@ -25,7 +25,7 @@ if global.debug==true
 if scanlines=true
     if !instance_exists(obj_scanlines)
         { 
-        instance_create(x,y,obj_scanlines)
+        instance_create(0,0,obj_scanlines)
         }
 
 if scanlines=false
